@@ -1,0 +1,19 @@
+#movie-details-card {
+  box-shadow: 0 0 6px 1px darken($light-grey, 10);
+  border-radius: 5px;
+
+  #header {
+    padding: 1rem 1.5rem;
+    border-bottom: 2px solid $secondary-gold;
+  }
+
+  #body {
+    padding: 0 1rem;
+    text-align: justify;
+  }
+
+  #footer {
+    padding: 0.5rem 1rem;
+    background: lighten($light-grey, 10);
+  }
+}

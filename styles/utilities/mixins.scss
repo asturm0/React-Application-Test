@@ -1,0 +1,16 @@
+@mixin basic-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: $text-color;
+  width: 100%;
+  outline: none;
+  background: white;
+  border: 1px solid $light-grey;
+  padding: 0.6rem;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
